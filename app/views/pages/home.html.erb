@@ -1,0 +1,16 @@
+<h1> 
+<% @cats.each do |c| %>
+ <p> <%= "Cat's name is " + c.name %> </p>
+<% end %>
+</h1>
+<h1> 
+<% @users.each do |u| %>
+ <p> <%= "User's  username is " + u.username %> </p>
+ <p> <%= "User's email is " + u.email %> </p>
+<% end %>
+</h1>
+<% @todos.each do |t| %>
+ <h1> <%= "Todo's  task is " + t.tasks %> </h1>
+<% end %>
+</h1>
+
